@@ -1,0 +1,101 @@
+.css-sje21u-MuiInputBase-root-MuiInput-root:before,
+.css-sje21u-MuiInputBase-root-MuiInput-root:after {
+  border: 0 !important;
+}
+.MuiAutocomplete-hasPopupIcon.css-1qqsdnr-MuiAutocomplete-root
+  .MuiAutocomplete-inputRoot,
+.MuiAutocomplete-hasClearIcon.css-1qqsdnr-MuiAutocomplete-root
+  .MuiAutocomplete-inputRoot {
+  border: 1px solid black !important;
+}
+.MuiAutocomplete-hasPopupIcon.css-1qqsdnr-MuiAutocomplete-root
+  .MuiAutocomplete-inputRoot,
+.MuiAutocomplete-hasClearIcon.css-1qqsdnr-MuiAutocomplete-root
+  .MuiAutocomplete-inputRoot:focus {
+  border: 0 !important;
+}
+.MuiAutocomplete-hasPopupIcon.css-1qqsdnr-MuiAutocomplete-root
+  .MuiOutlinedInput-root,
+.MuiAutocomplete-hasClearIcon.css-1qqsdnr-MuiAutocomplete-root
+  .MuiOutlinedInput-root {
+  padding: 0px !important;
+}
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  outline: 0;
+  border: 0;
+}
+.css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 30px !important;
+}
+.css-1nvjk1h-MuiInputBase-root-MuiInput-root::before,
+.css-1nvjk1h-MuiInputBase-root-MuiInput-root::after {
+  border: 0 !important;
+}
+.css-1nvjk1h-MuiInputBase-root-MuiInput-root {
+  border: 1px solid var(--text-color) !important;
+  padding: 11px 25px !important;
+  border-radius: 30px;
+}
+/* .css-1nvjk1h-MuiInputBase-root-MuiInput-root:focus {
+    outline: 2px solid#f26d85 !important;
+    background-color: #F26D85;
+    border: 0 !important;
+  } */
+/* .css-8ewcdo-MuiInputBase-root-MuiOutlinedInput-root {
+  border: 0px solid black !important;
+  outline: 0 !important;
+} */
+/* .css-8ewcdo-MuiInputBase-root-MuiOutlinedInput-root {
+  border: 0 !important;
+  outline: 0 !important;
+} */
+.css-wb57ya-MuiFormControl-root-MuiTextField-root {
+  border: 0;
+}
+.css-1tcs2i1-MuiInputBase-root-MuiInput-root:before {
+  border-bottom: 0 !important;
+}
+.css-1tcs2i1-MuiInputBase-root-MuiInput-root:after {
+  border: 0 !important;
+}
+.rti--container {
+  transition: none !important;
+}
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border: 0 !important;
+}
+.css-480o17-MuiGrid-root > .MuiGrid-item {
+  padding: 10px 10px;
+}
+/* .css-1d3z3hw-MuiOutlinedInput-notchedOutline:focus-within {
+  border: 0 !important;
+} */
+.date-picker .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border: 0 !important;
+}
+/* .date-picker .css-1d3z3hw-MuiOutlinedInput-notchedOutline:focus-within {
+  border: 1px solid red !important;
+} */
+.css-1foa3kv-MuiFormLabel-root-MuiInputLabel-root {
+  width: 50% !important;
+}
+.css-2royc9 {
+  margin-bottom: 30px !important;
+}
+.css-1hslvfu-MuiGrid-root {
+  overflow-y: auto;
+}
+.css-480o17-MuiGrid-root {
+  max-width: 100%;
+  margin: 0 !important;
+}
+.css-480o17-MuiGrid-root > .MuiGrid-item {
+  padding: 25px 15px 0 15px !important;
+}
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 100%;
+}
+/* color picker */
+.css-84xvl2-MuiInputBase-root-MuiInput-root:before {
+  border-bottom: 0 !important;
+}

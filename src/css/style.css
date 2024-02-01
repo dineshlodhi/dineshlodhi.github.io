@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap");
+@import url("../css/reset.css");
+
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --text-font-weight: 800;
+  --text-color: #000000;
+  --primary-clr: #f26d85;
+}
+
+.css-md26zr-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 86px !important;
+}
+
+.text-input {
+  font-size: 1.2rem !important;
+  font-weight: 700 !important;
+  color: var(--text-color) !important;
+  margin-left: 25px;
+}
+
+/* countries-input */
+.css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 30px !important;
+}
+
+/* Multisteper text */
+.multisteper-text p:first-of-type {
+  font-size: 2.188rem;
+  font-weight: 700;
+}
+
+.multisteper-text p:nth-of-type(2) {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 5rem;
+  margin-top: -1.2rem;
+}
+
+.multisteper-text {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+/* template img */
+.template-img {
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.template-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.css-d0cqrw-MuiInputBase-root-MuiInput-root,
+.css-1tcs2i1-MuiInputBase-root-MuiInput-root {
+  width: 50% !important;
+}
+
+.css-d0cqrw-MuiInputBase-root-MuiInput-root:before,
+.css-d0cqrw-MuiInputBase-root-MuiInput-root::after {
+  border: 0 !important;
+}
+
+/* countries-input */
+.countries-input {
+  border: #000000 !important;
+}
+
+.countries-input:focus {
+  outline: none;
+}
+
+/* .MuiFormLabel-root {
+  color: rgb(63, 60, 60) !important;
+} */
+
+input {
+  border: 1px solid var(--text-color) !important;
+  padding: 9px 25px !important;
+  border-radius: 30px;
+}
+
+input:focus {
+  outline: 1px solid#f26d85 !important;
+  border: 0 !important;
+}
+
+.item:focus-within > :first-child,
+.skills:focus-within > :first-child {
+  color: #f26d85 !important;
+}
+
+.date-item:focus-within label {
+  color: #f26d85 !important;
+}
+
+.date-item:focus-within input {
+  outline: 1px solid #f26d85;
+  border: 0 !important;
+}
+
+.skills {
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+.css-8ewcdo-MuiInputBase-root-MuiOutlinedInput-root,
+.rti--container {
+  border: 0.01px solid #000000 !important;
+  border-radius: 30px !important;
+}
+
+.css-8ewcdo-MuiInputBase-root-MuiOutlinedInput-root:focus-within,
+.rti--container:focus-within {
+  outline: 1px solid#f26d85 !important;
+  border: 0 !important;
+  border-radius: 40px;
+  transition: none !important;
+  box-shadow: none !important;
+}
+
+/* .css-8ewcdo-MuiInputBase-root-MuiOutlinedInput-root:hover {
+    border: 0 !important;
+    outline: 0 !important;
+} */
+
+.label-margin {
+  margin-left: 1.5rem;
+}
+
+.form-group {
+  padding: 20px 20px 20px 20px;
+  border: 1px solid #ccbebe;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+input.rti--input {
+  border: 0 !important;
+  width: 100%;
+}
+
+input.rti--input:focus {
+  outline: none !important;
+}
+
+.rti--tag {
+  padding: 5px 0px 5px 5px !important;
+  margin-left: 8px !important;
+  background: #d9d9d9 !important;
+  color: #00000066 !important;
+}
+
+.rti--tag button {
+  position: relative !important;
+  top: -13px !important;
+  right: -9px !important;
+  background: #afaeae !important;
+  color: #000000 !important;
+  padding: 1px 4px !important;
+  font-size: 0.6rem !important;
+  font-weight: bold !important;
+}
+
+.rti--container {
+  padding: 15px 15px !important;
+  height: 90px;
+  align-items: flex-start !important;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  margin: 0 1px;
+}
+
+/* desktopPicker */
+.desktopPicker {
+  border: none !important;
+}
+
+.end-date-label {
+  margin-left: 60px;
+}
+
+.date-picker {
+  border: 1px solid black;
+  border-radius: 30px;
+  display: flex;
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .date-picker input {
+    margin: 0 !important;
+    white-space: nowrap;
+  }
+}
+
+.date-picker input {
+  border: none !important;
+  outline: none !important;
+}
+
+.date-picker:focus-within {
+  border: 0 !important;
+  outline: #f26d85 1px solid;
+}
+
+/* Formik Error */
+.error-text {
+  color: red;
+  font-size: 12px;
+  margin: 8px 0 -15px 25px;
+}
+/* color picker */
+.css-tor0fq-MuiButtonBase-root-MuiButton-root {
+  background-color: #f26d85;
+}
+input[type="color"] {
+  border: 0 !important;
+  height: 1.5em;
+  padding: 0 !important;
+}
+.css-15tm82w-MuiInputBase-root-MuiInput-root:before,
+.css-15tm82w-MuiInputBase-root-MuiInput-root::after {
+  border: 0 !important;
+}
+input[type="color"]:focus {
+  border: 0 !important;
+}
+
+.color-lable {
+  text-transform: capitalize !important;
+}
+/* Next button */
+.css-1bdl40q-MuiButtonBase-root-MuiButton-root:hover {
+  background: #f26d85 !important;
+}
+/* download */
+.drobdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 405px;
+}
+
+.dropdown-content {
+  display: none;
+  background: #f1f1f1;
+  min-width: 110px;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  padding: 12px;
+}
+
+.dropdown-content a:hover {
+  background: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background: #3e8341;
+}
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root {
+  color: #979ADD !important;
+}
+.Mui-active .MuiStepIcon-root,
+.Mui-completed .MuiStepIcon-root {
+  color: #4951F5 !important;
+}
