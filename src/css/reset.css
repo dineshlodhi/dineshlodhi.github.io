@@ -2,6 +2,11 @@
 .css-sje21u-MuiInputBase-root-MuiInput-root:after {
   border: 0 !important;
 }
+.MuiInputBase-root::before,
+.MuiInputBase-root::after {
+  border-bottom: 0px !important;
+}
+
 .MuiAutocomplete-hasPopupIcon.css-1qqsdnr-MuiAutocomplete-root
   .MuiAutocomplete-inputRoot,
 .MuiAutocomplete-hasClearIcon.css-1qqsdnr-MuiAutocomplete-root
